@@ -108,7 +108,7 @@ hr {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #333;
+    background-color: #ccc;
 }
 .nav-item {
     margin-left: 5rem;
@@ -166,7 +166,7 @@ hr {
         margin-left: 15px;
         position: fixed;
         left: -100%;
-        top:120px;
+        top:160px;
         flex-direction: column;
         width:100%;
         text-align: center;
