@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Contact Us</h1>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="occasions">Occasions</label>
+    <select id="occasions" name="occasions">
+    <option value="wedding">Wedding</option>
+    <option value="birthday">Birthday</option>  
+    <option value="corporate">Corporate</option>
+    <option value="private">Private</option>
+ </select>
+ <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    <form action="./index.submit.html" method="GET">
+        <button type="submit">Submit</button>
+</form>
+  <div id="message"></div>
+</div>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
