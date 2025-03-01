@@ -161,15 +161,16 @@ hr {
     }
     .nav-menu {
         font-size: 18px;
-        padding:20px;
+        padding:10px;
         margin-left: 15px;
-        position: fixed;
+        position:relative;
         left: -100%;
-        top:160px;
+        margin-left:-10px;
         flex-direction: column;
         width:100%;
         text-align: center;
         transition: 0.3s;
+
 
         }
 
